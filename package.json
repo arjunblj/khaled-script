@@ -1,0 +1,22 @@
+{
+  "name": "khaled-script",
+  "version": "0.0.8",
+  "description": "#blessup npm",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "bin": {
+    "khaled": "./bin/khaled",
+    "khaledc": "./bin/khaledc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arjunblj/khaled-script.git"
+  },
+  "author": "Arjun Balaji",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}

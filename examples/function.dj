@@ -1,0 +1,4 @@
+THEYDONTWANTUSTO ADD(X, Y)
+  BUTWEGONNA X + Y
+
+console.log(ADD2(X, Y))

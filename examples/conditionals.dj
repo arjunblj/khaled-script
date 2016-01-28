@@ -1,0 +1,18 @@
+MAJORKEY a = no
+IF 5 > 3
+  MAJORKEY a = yes
+assert(a)
+
+MAJORKEY b = no
+IF 5 > 3
+  MAJORKEY b = yes
+ELSE
+  MAJORKEY b = no
+assert(b)
+
+MAJORKEY c = no
+IF 5 > 10
+  MAJORKEY c = no
+ELSE
+  MAJORKEY c = yes
+assert(c)

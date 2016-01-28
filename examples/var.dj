@@ -1,0 +1,5 @@
+
+MAJORKEY X = 5
+BLESSUP X < 10
+  MAJORKEY X = X + 1
+  console.log(X)
